@@ -40,8 +40,8 @@ export default class HolbertonCourse {
   }
 
   /**
-   * Sets the length of this course (in months). By Okpako michael
-   */
+   * Sets the length of this course (in months).
+   * */
   set length(value) {
     if (typeof value !== 'number') {
       throw new TypeError('Length must be a number');
