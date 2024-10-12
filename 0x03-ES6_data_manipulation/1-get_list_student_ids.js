@@ -1,16 +1,15 @@
-=/**
+/**
  * Retrieves ids from a list of students.
  * @param {{
- *   id: number,
- *   firstName: string,
- *   location: string
+ *   id: Number,
+ *   firstName: String,
+ *   location: String
  * }[]} students - The list of students.
- * @author Eneh Chinelo Peculiar
- * <https://github.com/Exaltprecious>
- * @returns {number[]} An array of student ids.
- */
+ * @author Eneh Chinelo Peculiar<https://github.com/Exaltprecious>
+ * @returns
+ *  */
 export default function getListStudentIds(students) {
-  if (Array.isArray(students)) {
+  if (students instanceof Array) {
     return students.map((student) => student.id);
   }
   return [];
