@@ -1,6 +1,6 @@
 /**
  * Retrieves a list of students.
- * @author Eneh Chinelo Peculiar <https://github.com/Mikelonia>
+ * @author Eneh Chinelo Peculiar <https://github.com/<xaltprecious>
  * @returns {{id: number, firstName: string, location: string}[]} An array of student objects.
  */
 export default function getListStudents() {
